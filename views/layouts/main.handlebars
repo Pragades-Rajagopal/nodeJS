@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{!-- <link rel="stylesheet" href="https://bootswatch.com/5/flatly/bootstrap.min.css"> --}}
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+<body>
+    {{!-- <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="main-container">
+            <div class="navbar-header">
+                <a class="navbar-title" href="/">Weather App</a>
+            </div>
+        </div>
+    </nav> --}}
+    <div class="body">
+        <div class="main-title">
+            <a class="main-title" href="/">Weather App</a>
+        </div>
+
+        <div class="container">
+            {{{body}}}
+        </div>
+        <br>
+        <a href="https://openweathermap.org/" class="openweather-logo">Weather by OpenWeather</a>
+    </div>
+</body>
+</html>

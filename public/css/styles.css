@@ -1,0 +1,36 @@
+.body {
+    background: linear-gradient(to right, rgb(225, 167, 35), rgb(35, 225, 158));
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.main-title {
+    /* background: linear-gradient(to right, rgb(225, 167, 35), rgb(225, 97, 35)); */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    width: 1200px;
+    /* background-color: rgb(12, 175, 175); */
+    /* display: flex; */
+}
+
+.openweather-logo{
+    justify-content: left;
+    align-items: left;
+    min-width: 100vh;
+    margin: 0;
+    padding: 0;
+}

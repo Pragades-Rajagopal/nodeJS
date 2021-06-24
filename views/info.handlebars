@@ -1,0 +1,24 @@
+<h3>WEATHER INFORMATION</h3>
+<div class="container">
+    <div class="content">
+        <div class="general-information">
+            <div class="location">Weather Information for {{id}}</div>
+        </div>
+        <div class="detail-section">
+            <div class="detail">
+                <div class="title">Wind</div>
+                <div class="value">{{data.wind_speed}} m/s</div>
+            </div>
+            <div class="detail">
+                <div class="title">Temperature</div>
+                <div class="value">{{data.temp}}°C</div>
+            </div>
+            <div class="detail">
+                <div class="title">Humidity</div>
+                <div class="value">{{data.humidity}}%</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<a class="btn pull-left" href="/">Search another city</a>
